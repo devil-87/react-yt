@@ -1,0 +1,18 @@
+*{
+    background-color: hsl(0, 60%, 73%);
+}
+h1{
+    margin: 100px 655px;
+    background-color: #c6e9f1;
+    width:fit-content;
+    padding: 20px 30px;
+    border-radius: 5%;
+    border: 2px solid darkmagenta;
+}
+button{
+    margin:  100px 180px;
+    padding: 7px 20px;
+    background-color: #dadada;
+    font-size: medium;
+    border: 2px solid darkmagenta;
+}

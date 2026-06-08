@@ -1,0 +1,25 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+html ,body{
+height: 100%;
+width: 100%;
+}
+body{
+  background-color: rgba(0, 0, 0, 0.918);
+}
+.card{
+  background-color: #f801a6;
+  border-radius: 16px;
+  margin: 20px;
+  padding: 10px;
+}
+.nav{
+  background-color: #5da9d8;
+  border-radius: 15px;
+  margin: 20px;
+  padding: 10px;
+}

@@ -1,0 +1,109 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+html ,body{
+height: 100%;
+width: 100%;
+}
+body{
+  background-color: rgba(0, 0, 0, 0.918);
+color: black;
+}
+.parent{
+  min-height: 100vh;
+  width: 100%;
+  background-color: #1fe3ea;
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 35px;
+}
+.Card{
+  height: 270px;
+  width: 245px;
+  background-color: #fff;
+  border-radius: 10px;
+  /* margin: 0px; */
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.Card .top{
+  display: flex;
+   align-items: center;
+  justify-content: space-between;
+}
+.top img{
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+  border: 2px solid #dadada;
+  padding: 1px;
+} 
+.top button{
+  display: flex;
+  align-items: centre;
+  border: 1px solid #dadada;
+  border-radius: 2px;
+  font-size: 12px;
+  padding: 2px 4px;
+  gap: 3px;
+  background-color: transparent;
+  color: #bbb9b9;
+}
+.centre{
+  /* background-color: rgb(143, 79, 240); */
+}
+.centre h3{
+  font-size:13px;
+  font-weight: 600;
+}
+.centre h3 span{
+  font-size: 8px;
+  font-weight: 400;
+  color: #6e6a6a;
+}
+.centre h2{
+  font-size: 15px;
+  margin-top: 1px;
+}
+.centre .tag{
+  display: flex;
+  gap: 5px;
+  margin-top: 4px;
+}
+.centre .tag h4{
+  font-size: 11px;
+  background-color: #dadada;
+  color: #111;
+  font-weight: 600;
+  padding: 3px 5px;
+  border-radius: 3px;
+}
+.bottom{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid  #0a0a0f;
+  padding-top: 15px; 
+  gap: 40px;
+}
+.bottom h3{
+  font-size: 12px;
+}
+.bottom p{
+  font-size: 9px;
+  color: #969191;
+  font-weight: 300;
+}
+.bottom button {
+  font-size: 11px;
+  color: #fff;
+  background-color: rgb(55, 53, 53);
+  border-radius: 3px;
+ padding: 5px;
+}
